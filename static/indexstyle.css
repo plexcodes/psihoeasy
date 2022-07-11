@@ -5,21 +5,15 @@ body{
 
 .content{
     visibility: visible;
-
     overflow-x: hidden;
-    overflow-y: auto;
-    scroll-snap-type: y mandatory;
 }
 
 .section{
-    height: 100vh;
     width: 100vw;
     background-color: #121212;
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
-
-    scroll-snap-align: start;
 }
 
 .img-front{
@@ -44,18 +38,16 @@ h1 {
 }
 
 .section p{
-    position: relative;
+    margin-left: 10vw;
+    display:inline-block;
     color:white;
     font-family: 'Raleway', sans-serif;
     font-size:x-large;
-    width:30vw;
-    margin-top:10vh;
 }
 
 .section b{
     color: #673AB7;
 }
-
 
 
 
